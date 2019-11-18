@@ -5,6 +5,8 @@
 - @SuppressWarnings("unchecked") to suppress warning checking inside the methods
 - @Deprecated to indicate that a method is deprecated
 
+## Java Enum
+- http://tutorials.jenkov.com/java/enums.html
 
 ## Acknowledgement
 ### Collections: 
