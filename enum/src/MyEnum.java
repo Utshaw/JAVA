@@ -17,8 +17,7 @@ public class MyEnum {
     compare two Enums using compare()
     e1 == e2 is same as e1.equals(e2)
     Enum can be used in switch statements
-
-
+    
      */
 
     public static void main(String[] args) {
