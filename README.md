@@ -3,7 +3,7 @@
 - Recommended to install JDK 11 as it is LTS
 ### Java JDK 11 LTS
 #### Ubuntu
-- [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html) install tar.gz file from here <br />
+- [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html) install tar.gz file from [here](https://www.oracle.com/java/technologies/javase-downloads.html) <br />
 Enter commands:
 ```
 tar -xvf jdk-11.0.6_linux-x64_bin.tar.gz 
@@ -20,6 +20,13 @@ sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/b
 ```
  sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk-11/bin/javac" 1010
 ```
+## Intellij Idea
+### Choosing project SDK
+- File -> Project Structure -> Project SDK -> Choose the parent folder of bin folder for jdk, On Ubuntu the path is `/usr/lib/jvm/jdk-11`
+- Chose project language level same as the project sdk. If the jdk is 11 then the language level will be 11 too.
+### Some settings
+- File -> Settings -> Auto Import; Check `Add unabmigous import on the fly`, `Optimize imports on the fly`
+- File -> Settings -> Code Folding: Uncheck `Imports`, `One-line methods`, `Closures`, `Generic constructor ...`
 
 ## Annotations
 - @Override to override a methods from parent class
