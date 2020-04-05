@@ -1,4 +1,25 @@
 # JAVA
+## Installation
+- Recommended to install JDK 11 as it is LTS
+### Java JDK 11 LTS
+#### Ubuntu
+- [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html) install tar.gz file from here <br />
+Enter commands:
+```
+tar -xvf jdk-11.0.6_linux-x64_bin.tar.gz 
+```
+```
+sudo mkdir -p /usr/lib/jvm/jdk-11/
+```
+```
+sudo mv jdk-11.0.6/* /usr/lib/jvm/jdk-11/
+```
+```
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/bin/java" 1010
+```
+```
+ sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk-11/bin/javac" 1010
+```
 
 ## Annotations
 - @Override to override a methods from parent class
