@@ -28,6 +28,27 @@ sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/b
 - File -> Settings -> Auto Import; Check `Add unabmigous import on the fly`, `Optimize imports on the fly`
 - File -> Settings -> Code Folding: Uncheck `Imports`, `One-line methods`, `Closures`, `Generic constructor ...`
 
+## Data types
+### Primitive data types
+#### int 4 bytes
+-  	-2147483,648 to 2147483647
+#### short  	2 bytes
+-  	-32768 to 32767
+#### byte 1 byte
+- -128 to 127
+#### long  	8 bytes
+- -9223372036854775808 to
+9223372036854775807
+#### float 4 bytes
+- ±3.40282347E+38F 
+#### double  	8 bytes
+- ±1.79769313486231570E+308 
+#### char 2 byte
+- 2 byte
+#### boolean 
+- true or false
+
+
 ## Annotations
 - @Override to override a methods from parent class
 - @SuppressWarnings("unchecked") to suppress warning checking inside the methods
