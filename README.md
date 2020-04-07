@@ -37,16 +37,34 @@ sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/b
 #### byte 1 byte
 - -128 to 127
 #### long  	8 bytes
-- -9223372036854775808 to
-9223372036854775807
+- -9223372036854775808L to
+9223372036854775807L
 #### float 4 bytes
 - ±3.40282347E+38F 
 #### double  	8 bytes
-- ±1.79769313486231570E+308 
+- ±1.79769313486231570E+308d 
 #### char 2 byte
 - 2 byte
 #### boolean 
 - true or false
+
+### Casting to another type 
+```
+int someInt = 25;
+byte newByteVal = (byte) (someInt) / 2;
+```
+
+## Support for special unicode characters
+- Java has 2bytes char so supports special characters
+- [This](https://unicode-table.com/en/) site lists those characters <br />
+Valid statements:
+```
+char myChar = '\u00A9';
+char myChar2 = '©';
+String myString = "ফারহান তানভীর উৎস ";
+System.out.println(myString);
+```
+
 
 
 ## Annotations
