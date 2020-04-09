@@ -54,6 +54,9 @@ int someInt = 25;
 byte newByteVal = (byte) (someInt) / 2;
 ```
 
+### Operator precedance & associativity
+- [Link](https://www.hackerearth.com/practice/basic-programming/operators/basics-of-operators/tutorial/)
+
 ## Support for special unicode characters
 - Java has 2bytes char so supports special characters
 - [This](https://unicode-table.com/en/) site lists those characters <br />
@@ -65,6 +68,14 @@ String myString = "ফারহান তানভীর উৎস ";
 System.out.println(myString);
 ```
 
+## Collection
+### Set
+- Contains unique elements
+- Duplicates are discarded
+#### HashSet
+- Doesn't sort
+#### TreeSet
+- Sorts lexicographically
 
 
 ## Annotations
@@ -226,6 +237,8 @@ public class Main {
 }
 ```
 
+## Some findings
+- [ArrayStoreException](https://stackoverflow.com/questions/12369957/dealing-with-an-arraystoreexception)
 
 
 ## Acknowledgement
