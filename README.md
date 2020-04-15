@@ -27,6 +27,8 @@ sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/b
 ### Some settings
 - File -> Settings -> Auto Import; Check `Add unabmigous import on the fly`, `Optimize imports on the fly`
 - File -> Settings -> Code Folding: Uncheck `Imports`, `One-line methods`, `Closures`, `Generic constructor ...`
+### Shortcuts
+- Ctrl+Alt+L to reformat code (resolves indenting problems)
 
 ## Data types
 ### Primitive data types
