@@ -19,3 +19,29 @@ public BankAccount(String accountNumber, String customerName, String email, Stri
     this.balance = balance;
 }
 ```
+## Overriding constructor/method
+- Animal.java
+```
+public class Animal {
+    private String name;
+    public Animal(String name) {
+        this.name = name;
+    }
+    public void eat() {
+        System.out.println("Animal eating");
+    }
+}
+```
+- Cat.java
+```
+public class Cat extends Animal {
+    public Cat(String name) {
+        super(name);
+    }
+    @Override
+    public void eat() {
+        super.eat();
+        System.out.println("To be specific, cat is eating");
+    }
+}
+```
