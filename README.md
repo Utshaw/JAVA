@@ -15,10 +15,10 @@ sudo mkdir -p /usr/lib/jvm/jdk-11/
 sudo mv jdk-11.0.6/* /usr/lib/jvm/jdk-11/
 ```
 ```
-sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/bin/java" 1010
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/bin/java" 1200
 ```
 ```
- sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk-11/bin/javac" 1010
+ sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk-11/bin/javac" 1200
 ```
 ## Intellij Idea
 ### Choosing project SDK
