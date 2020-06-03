@@ -20,6 +20,12 @@ sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/b
 ```
  sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk-11/bin/javac" 1200
 ```
+if `java -version` displayed openJDK then check the value:
+```
+sudo update-alternatives --config java
+```
+If it is of higher value try higher value than that for update-alternatives
+
 ## Intellij Idea
 ### Choosing project SDK
 - File -> Project Structure -> Project SDK -> Choose the parent folder of bin folder for jdk, On Ubuntu the path is `/usr/lib/jvm/jdk-11`
