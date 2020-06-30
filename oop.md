@@ -5,6 +5,11 @@
 
 
 # Constructor
+## this & super
+<img src="img/1.png"> <br />
+<img src="img/2.png"> <br />
+<img src="img/3.png"> <br />
+
 ## Overloading constructor
 ```
 public BankAccount() {
@@ -19,7 +24,25 @@ public BankAccount(String accountNumber, String customerName, String email, Stri
     this.balance = balance;
 }
 ```
+## Method overloading
+<img src="img/4.png"> <br />
+<img src="img/5.png"> <br />
+<img src="img/6.png"> <br />
+<img src="img/7.png"> <br />
+
+
+## Method overriding
+- Methods can only  be overridden in child classes
+- final methods can't be overridden
+- super.methodName() to call the super class version of an overridden method
+
+<img src="img/8.png"> <br />
+<img src="img/9.png"> <br />
+<img src="img/10.png"> <br />
+<img src="img/11.png"> <br />
+
 ## Overriding constructor/method
+
 - Animal.java
 ```
 public class Animal {
