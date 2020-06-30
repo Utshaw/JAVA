@@ -15,11 +15,17 @@ sudo mkdir -p /usr/lib/jvm/jdk-11/
 sudo mv jdk-11.0.6/* /usr/lib/jvm/jdk-11/
 ```
 ```
-sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/bin/java" 1010
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/bin/java" 1200
 ```
 ```
- sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk-11/bin/javac" 1010
+ sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk-11/bin/javac" 1200
 ```
+if `java -version` displayed openJDK then check the value:
+```
+sudo update-alternatives --config java
+```
+If it is of higher value try higher value than that for update-alternatives
+
 ## Intellij Idea
 ### Choosing project SDK
 - File -> Project Structure -> Project SDK -> Choose the parent folder of bin folder for jdk, On Ubuntu the path is `/usr/lib/jvm/jdk-11`
