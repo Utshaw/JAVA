@@ -36,6 +36,25 @@ If it is of higher value try higher value than that for update-alternatives
 ### Shortcuts
 - Ctrl+Alt+L to reformat code (resolves indenting problems)
 
+## Packages
+- Simple containers that groups related java elements
+- package name must be unique
+- only lowercase
+- Two types of packages: built-in , user defined
+### Built-in packages
+- Prewritten packages included into Java
+- Can't be seen in the filesystem
+- starts with `java.`
+### User defined packages
+- Defined by developers
+- Can be seen in the file system
+- starts with custom words
+### Import package
+- `import com.imdb.database.*;` // imports all classes & elements inside that package
+- `import com.imdb.database.OscarMoviesDataProvider;`  // imports only OscarMoviesDataProvider class
+- Better to not import all
+
+
 ## Data types
 ### Primitive data types
 #### int 4 bytes
@@ -48,13 +67,26 @@ If it is of higher value try higher value than that for update-alternatives
 - -9223372036854775808L to
 9223372036854775807L
 #### float 4 bytes
+- 6 to 7 decimal digits
 - ±3.40282347E+38F 
 #### double  	8 bytes
+- 15 decimal digits
 - ±1.79769313486231570E+308d 
 #### char 2 byte
 - 2 byte
 #### boolean 
 - true or false
+
+## Reference Data types use
+```
+Float mileage = 12.3546F;
+System.out.println(mileage.intValue()); // 12
+Integer price = 1234;
+System.out.println(price.doubleValue()); // 1234.0
+String name = "farhan tanvir utshaw";
+System.out.println(name.toUpperCase()); // FARHAN TANVIR UTSHAW
+```
+
 
 ### Casting to another type 
 ```
@@ -73,7 +105,7 @@ Valid statements:
 char myChar = '\u00A9';
 char myChar2 = '©';
 String myString = "ফারহান তানভীর উৎস ";
-System.out.println(myString);
+System.out.println(myString); // ফারহান তানভীর উৎস
 ```
 
 ## Collection
