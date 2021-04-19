@@ -41,6 +41,9 @@
 - Gives simpler interface
 - Reduce impact of change: we change some private methods, those won't let the outer interface change
 
+## Polymorphism (Many Form)
+
+
 # Class 
 - Blueprints of prototypes to create objects
 # Objects 
