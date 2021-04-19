@@ -1,5 +1,13 @@
 # Object Oriented Programming
+- Procedural programming divides program into set of functions (data stored on variables, function operates on those data)
+- In procedural programming, change in one function breaks many others (inter dependency between codes)
+- OOP solves these issues
+- OOP combines group of related function, variables in a unit, these variables are property, functions are called methods 
+ 
 ## Four principles of OOP: 
+## Four coure concepts of OOP:
+<img src="img/25.png">
+
 1. Inheritance: relationship of classes, a class can have variables, functions of another class
 2. Encapsulation: Hiding data from other classes via access modifier
 3. Abstraction: Hiding details from outside the class
@@ -7,6 +15,7 @@
 
 ## Inheritance
 - Allows to define a new class from an existing one and inherit it's attributes and methods
+- Eliminate redundant code
 - **Is A Relationship:** subclass is a superclass
 
 <img src="img/21.png">
@@ -22,8 +31,15 @@
 - With interface this is allowed as interface doesn't have function body
 
 ## Encapsulation
+- **We group related variables & functions that operate on them in class** 
 - Wrapping up of data under a single unit & prevents data from being accessed by the code outside
 - Using classes to encapsulate data & access modifier to hide them
+- Only getter - readonly, Only setter - writeonly
+
+## Abstraction 
+- Hide some properties, methods 
+- Gives simpler interface
+- Reduce impact of change: we change some private methods, those won't let the outer interface change
 
 # Class 
 - Blueprints of prototypes to create objects
