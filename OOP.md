@@ -38,8 +38,13 @@
 
 ## Abstraction 
 - Hide some properties, methods 
-- Gives simpler interface
+- Gives simpler interface, only the essential details are displayed to the user. Hiding certain details of the implementation.
 - Reduce impact of change: we change some private methods, those won't let the outer interface change
+### Abstract class
+- Can have abstract and regular methods 
+- Can't be used to create objects 
+- Must be extended by other classes to use them 
+- Abstract method can only exist in an abstract class, it doesn't have body as the body will be provided by the subclass
 
 ## Polymorphism (Many Form)
 
