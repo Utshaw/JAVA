@@ -9,3 +9,6 @@
 - Blueprints of prototypes to create objects
 # Objects 
 - Actual instance of classes
+
+## Access Modifier
+- Are used to set the accessibility of classes, methods, class variables & other java elements
