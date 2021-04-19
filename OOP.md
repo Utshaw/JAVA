@@ -23,7 +23,7 @@
 
 ## Encapsulation
 - Wrapping up of data under a single unit & prevents data from being accessed by the code outside
-
+- Using classes to encapsulate data & access modifier to hide them
 
 # Class 
 - Blueprints of prototypes to create objects
