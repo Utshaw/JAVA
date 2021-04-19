@@ -45,6 +45,11 @@
 - Can't be used to create objects 
 - Must be extended by other classes to use them 
 - Abstract method can only exist in an abstract class, it doesn't have body as the body will be provided by the subclass
+### Interface 
+- can have methods, variables 
+- methods are allowed only without body, body is provided by the class that implements it 
+
+
 
 ## Polymorphism (Many Form)
 
