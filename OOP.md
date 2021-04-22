@@ -48,8 +48,8 @@
 ### Interface 
 - can have methods, variables 
 - methods are allowed only without body, body is provided by the class that implements it 
-
-
+- can't be used to create objects 
+- all fields, methods are public abstract final
 
 ## Polymorphism (Many Form)
 
