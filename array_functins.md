@@ -25,9 +25,17 @@ int[] newArr = Arrays.copyOf(arr1, 3);
 System.out.println(Arrays.toString(newArr)); // [100, 100, 100]
 ```
 ## Arrays.binarySearch(array, value)
+- array must be sorted
 - returns the first index where the given value is found
 - if not found negative value is returned
 ```
 int searchIndex = Arrays.binarySearch(arr2, 6);
 System.out.println(searchIndex); // 5
+```
+## Arrays.copyof
+```
+int[] c = Arrays.copyOf(b, 5); // first 5 elements
+System.out.println(Arrays.toString(c)); // [1, 2, 30, 31, 99]
+int[] d = Arrays.copyOfRange(b, b.length - 5, b.length); // last 5 elements
+System.out.println(Arrays.toString(d)); // [2, 30, 31, 99, 100]
 ```
