@@ -16,12 +16,5 @@
 
 <img src="img/33.png">
 
-<img src="img/34.png">
 
-<img src="img/35.png">
-
-
-<img src="img/36.png">
-
-<img src="img/37.png">
 
