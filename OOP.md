@@ -63,6 +63,10 @@
 
 ## Polymorphism (Many Form)
 
+### Method overriding
+
+- Creating a new body for the inherited functions
+
 # Class
 
 - Blueprints of prototypes to create objects
