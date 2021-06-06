@@ -69,6 +69,13 @@
 - Same name, same parameters, same return type
 - private methods can't be overridden
 
+### Method Overloading
+
+- Creating new method with same name
+- Same name, different param, different return type
+- Can't have same name, same param but different return type
+- private method can be overloaded
+
 # Class
 
 - Blueprints of prototypes to create objects
