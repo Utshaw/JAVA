@@ -67,6 +67,7 @@
 
 - Creating a new body for the inherited functions
 - Same name, same parameters, same return type
+- private methods can't be overridden
 
 # Class
 
