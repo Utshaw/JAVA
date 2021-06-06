@@ -1,6 +1,8 @@
 package map;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class myHashMap {
 
@@ -33,6 +35,20 @@ public class myHashMap {
             System.out.println(key + ": " + value);
 
         }
+
+        System.out.println("-----------------------");
+        Set<Integer> keys = map.keySet();
+        for(Integer i: keys) {
+            System.out.println(i + " " + map.get(i));
+        }
+
+
+        System.out.println("-----------------------");
+        Set<Map.Entry<Integer, String>> mapEntrySet = map.entrySet();
+        for(Map.Entry<Integer, String> e: mapEntrySet) {
+            System.out.println(e.getKey() + " " + e.getValue());
+        }
+
     }
 
 }
