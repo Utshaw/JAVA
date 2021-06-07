@@ -28,7 +28,7 @@ class Student
     }
 
     /*
-     the result returned from the hashCode() method for two objects must be the same if their equals methods shows that they are equivalent.
+     if one object equals the other, their hashcode must be same
      The converse is not necessarily true.
      */
 
